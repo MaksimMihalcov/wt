@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/site",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Max",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "twig/twig": "^3.3"
+  }
+}

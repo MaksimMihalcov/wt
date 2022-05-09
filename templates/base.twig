@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food</title>
+    <link rel="icon" type="image/x-icon" href="res/fav.jpg">
+    <link href="templates/style.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<ul class="nav-correct nav justify-content-center">
+    <li class="av-item">
+        <img class="lime img-fluid" src="res/lime.png" alt="food">
+    </li>
+    <li class="nav-item">
+        <a class="a-c nav-link active" aria-current="page" href="/site/index.php">Home</a>
+    </li>
+    <li class="nav-item">
+        <img class="lime img-fluid" src="res/lime.png" alt="food">
+    </li>
+    <li class="nav-item">
+        <a class="a-c nav-link" href="/site/top3.php">Top-3</a>
+    </li>
+    <li class="nav-item">
+        <img class="lime img-fluid" src="res/lime.png" alt="food">
+    </li>
+    <li class="nav-item">
+        <a class="a-c nav-link" href="/site/dfy.php">Dish from you</a>
+    </li>
+    <li class="nav-item">
+        <img class="lime img-fluid" src="res/lime.png" alt="food">
+    </li>
+</ul>
+    {% block body %}{% endblock %}
+<footer class="bg-light text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-dark" href="#">Maxim Mihalcov 051007</a>
+    </div>
+</footer>
+</body>
+</html>

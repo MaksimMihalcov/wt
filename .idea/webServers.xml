@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="732a6b5a-4468-4b07-9845-eb6732916781" name="maksim.mihalcov" url="http://maksim.mihalcov">
+        <fileTransfer mountedRoot="D:\Wamp64\www\maksim.mihalcov\site" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="6dc197f8-aa68-4b3e-a63b-282b047446bb" name="LocalHost" url="http://localhost/maksim.mihalcov/site">
+        <fileTransfer mountedRoot="D:\Wamp64\www\maksim.mihalcov\site" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
